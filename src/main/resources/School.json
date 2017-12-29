@@ -1,0 +1,15 @@
+{
+  version: '1.0',
+  defaultSchema: 'school',
+  schemas: [
+    {      
+      type: 'custom',
+      name: 'school',
+      factory: 'com.liangbo.xing.calcite.MemorySchemaFactory',
+      operand: {
+        param1: 'hello',
+        param2: 'world'
+      }
+    }
+  ]
+}
